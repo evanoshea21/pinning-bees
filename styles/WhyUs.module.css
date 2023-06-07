@@ -1,0 +1,50 @@
+.main {
+  /* border: 4px solid silver; */
+  height: 600px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.headers {
+  max-width: 450px;
+  margin: 0 auto;
+}
+.header {
+  font-size: 2.5rem;
+  margin: 0;
+}
+.subheader {
+  margin: 30px;
+}
+.header, .subheader {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+.cards img {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+}
+.cards > * {
+  /* background-color: aliceblue; */
+  flex: 1;
+  margin: 10px;
+  border: 2px solid var(--lightT);
+  border-radius: 30px;
+
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cards h3 {
+  text-align: center;
+  margin: 35px 0;
+}
+.cards p {
+  text-align: justify;
+  margin: 0;
+}

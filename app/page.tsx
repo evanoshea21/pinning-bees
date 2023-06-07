@@ -1,6 +1,8 @@
 import classes from './page.module.css'
 import Hero from '../components/Hero'
 import WhyPinterest from '../components/WhyPinterest'
+import OurServices from '../components/OurServices'
+import WhyUs from '../components/WhyUs'
 
 export default function Home() {
   return (
@@ -23,8 +25,12 @@ export default function Home() {
       </nav>
       <div className={classes.navbarGap}></div>
       {/* CONTENT */}
-      {/* <Hero /> */}
+      <div className='content'>
+      {/* <Hero />
       <WhyPinterest />
+      <OurServices /> */}
+      <WhyUs />
+      </div>
     </div>
   )
 }

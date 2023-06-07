@@ -8,6 +8,7 @@
   --grey: #edf2f4;
   --greyT: #edf2f4be;
   --light: #8d99ae;
+  --lightT:rgba(141, 153, 174, 0.342);
   --navy: #2b2d42;
 
 
@@ -18,3 +19,8 @@ body, html {
   padding: 0;
   background-color: var(--grey);
 }
+
+/* .content > * {
+  border: 10px solid green;
+  margin: 20px;
+} */
