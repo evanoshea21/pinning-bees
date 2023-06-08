@@ -1,5 +1,6 @@
 import classes from './page.module.css'
 import Hero from '../components/Hero'
+import Stats from '../components/Stats'
 import WhyPinterest from '../components/WhyPinterest'
 import OurServices from '../components/OurServices'
 import WhyUs from '../components/WhyUs'
@@ -30,14 +31,15 @@ export default function Home() {
       <div className={classes.navbarGap}></div>
       {/* CONTENT */}
       <div className='content'>
-      {/* <Hero />
+      <Hero />
+      <Stats />
       <WhyPinterest />
-      <OurServices />
       <WhyUs />
+      <OurServices />
       <Work />
       <TakeAction />
-      <Footer /> */}
       <FAQ />
+      <Footer />
 
       </div>
     </div>

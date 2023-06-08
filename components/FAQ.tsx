@@ -43,8 +43,8 @@ const FAQ = () => {
           <h3 className={classes.q} >What is SEO?</h3>
           <Image
           src={'/icons/arrow-ur.png'}
-          width='30'
-          height='30'
+          width='28'
+          height='28'
           alt='arrow'
           />
           <p className={`${classes.a} a`} >SEO stands for Search Engine Optimization. It is the practice of optimizing a website to increase the quantity and quality of traffic from organic search engine results. This involves optimizing the website's content, structure, and other elements to make it more appealing to search engines and improve its ranking in search results. The ultimate goal of SEO is to increase visibility and drive traffic to a website, which can lead to increased sales or other business objectives. structure, and other elements to make it more appealing to search engines and improve its ranking in search results. The ultimate goal of SEO is to increase visibility and drive traffic to a website, which can lead to increased sales or other business objectives. engines and improve its ranking in search results. The ultimate goal of SEO is to increase visibility and drive traffic to a website, which can lead to increased sales or other business objectives. structure, and other elements to make it more appealing to search engines and improve its ranking in search results. The ultimate goal of SEO is to increase visibility and drive traffic to a website, which can lead to increased sales or other business objectives.</p>
@@ -56,8 +56,8 @@ const FAQ = () => {
           <h3 className={classes.q} >What is Marketing?</h3>
           <Image
           src={'/icons/arrow-ur.png'}
-          width='30'
-          height='30'
+          width='28'
+          height='28'
           alt='arrow'
           />
           <p className={`${classes.a} a`} >Marketing is... stands for Search Engine Optimization. It is the practice of optimizing a website to increase the quantity and quality of traffic from organic search engine results. This involves optimizing the website's content, structure, and other elements to make it more appealing to search engines and improve its ranking in search results. The ultimate goal of SEO is to increase visibility and drive traffic to a website, which can lead to increased sales or other business objectives.</p>
@@ -69,8 +69,8 @@ const FAQ = () => {
           <h3 className={classes.q} >Why should I use Pinterest?</h3>
           <Image
           src={'/icons/arrow-ur.png'}
-          width='30'
-          height='30'
+          width='28'
+          height='28'
           alt='arrow'
           />
           <p className={`${classes.a} a`} >You should use Pinterest because... stands for Search Engine Optimization. It is the practice of optimizing a website to increase the quantity and quality of traffic from organic search engine results. This involves optimizing the website's content, structure, and other elements to make it more appealing to search engines and improve its ranking in search results. The ultimate goal of SEO is to increase visibility and drive traffic to a website, which can lead to increased sales or other business objectives.</p>

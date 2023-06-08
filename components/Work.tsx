@@ -8,8 +8,7 @@ const Work = () => {
   return (
     <div className={classes.main}>
       <h1>See Our Results</h1>
-      <p>Our results speak for themselves.</p>
-      <p>Numbers: 1.26mil pins created; </p>
+      <p className={classes.subheader} >Our results speak for themselves.</p>
 
       <div className={classes.content}>
 

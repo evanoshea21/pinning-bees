@@ -1,6 +1,7 @@
 .main {
   background-color: aliceblue;
   max-width: 1200px;
+  border-radius: 30px;
 
   margin-left: auto;
   margin-right: auto;
@@ -9,9 +10,16 @@
 .main h1, .main > p {
   text-align: center;
 }
+.main h1 {
+  font-size: 2.8rem;
+}
 .main img {
   width: 20px;
   height: 20px;
+}
+.subheader {
+  margin-top: 5px;
+  margin-bottom: 50px;
 }
 
 .content {
