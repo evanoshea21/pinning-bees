@@ -1,0 +1,51 @@
+.main {
+  background-color: aliceblue;
+  max-width: 1200px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 10px;
+
+}
+
+.main h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.qa {
+  /* height: 120px; */
+  transition: all .7s ease;
+  overflow-y: hidden;
+  border-bottom: 1px solid var(--light);
+
+  position: relative;
+}
+
+.q {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 0;
+
+  position: absolute;
+  top: 60px;
+  left: 50px;
+  transform: translateY(-50%);
+}
+.content img {
+  /* width: 30px;
+  height: 30px; */
+  position: absolute;
+  top: 60px;
+  right: 50px;
+  transform: translateY(-50%);
+}
+
+.a {
+  margin: 130px 50px 40px 50px;
+}

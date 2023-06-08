@@ -1,0 +1,47 @@
+.main {
+  background-color: aliceblue;
+  max-width: 1200px;
+  width: 90%;
+  border-radius: 60px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 10px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.main > * {
+  flex-grow: 1;
+  flex-basis: 300px;
+  /* border: 1px solid green; */
+}
+
+.left {
+  box-sizing: border-box;
+  padding: 20px;
+}
+.left p {
+  margin: 40px 0;
+}
+
+.left h2 {
+  font-size: 3rem;
+  margin: 10px;
+}
+
+.left button {
+  font-size: 1rem;
+  padding: 20px 30px;
+  background-color: var(--navy);
+  color: var(--grey);
+  border: none;
+  border-radius: 14px;
+}
+.left button:hover {
+  background-color: var(--red);
+  /* color: var(--red); */
+
+}
+
+
