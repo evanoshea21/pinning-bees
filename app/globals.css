@@ -6,7 +6,7 @@
   --red: #d90429;
   --pink: #ef233c;
   --grey: #edf2f4;
-  --greyT: #edf2f4be;
+  --greyT: #edf2f4f3;
   --light: #8d99ae;
   --lightT:rgba(141, 153, 174, 0.342);
   --navy: #2b2d42;
@@ -20,7 +20,7 @@ body, html {
   background-color: var(--grey);
 }
 
-/* .content > * {
-  border: 10px solid green;
-  margin: 20px;
-} */
+.content > * {
+  /* border: 10px solid green; */
+  margin: 100px 0;
+}

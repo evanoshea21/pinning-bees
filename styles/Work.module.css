@@ -1,0 +1,47 @@
+.main {
+  background-color: aliceblue;
+  max-width: 1200px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+.main h1, .main > p {
+  text-align: center;
+}
+.main img {
+  width: 20px;
+  height: 20px;
+}
+
+.content {
+  display: flex;
+}
+.content > * {
+  flex: 1;
+}
+
+/* RIGHT */
+
+.right > * {
+  background-color: var(--lightT);
+  border-radius: 30px;
+  padding: 20px;
+
+  max-width: 450px;
+  margin: 20px auto;
+}
+.right .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right h2 {
+  margin: 15px 0;
+}
+
+/* LEFT */
+.left {
+  border: 1px solid grey;
+}

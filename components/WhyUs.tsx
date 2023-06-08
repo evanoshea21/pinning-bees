@@ -10,17 +10,23 @@ const WhyUs = () => {
       </div>
       <div className={classes.cards}>
         <div className={classes.card1}>
-          <img src='/icons/expert.png' alt='icon'></img>
+          <div className={classes.imgBox}>
+            <img src='/icons/expert.png' alt='icon'></img>
+          </div>
           <h3>Expert Team</h3>
           <p>We bring together top-level teams of pinterest strategists, analytic experts, account specialists, & digital designers to build the best Pinterest marketing plan for your business.</p>
         </div>
         <div className={classes.card2}>
+        <div className={classes.imgBox}>
           <img src='/icons/value.png' alt='icon'></img>
+        </div>
           <h3>High Value</h3>
           <p>We have developed a streamlined process to output a large quantity of pins without compromising on quality. Our competitors offer 300 pins/month compared to our 600+.</p>
         </div>
         <div className={classes.card3}>
+        <div className={classes.imgBox}>
           <img src='/icons/conversion.png' alt='icon'></img>
+        </div>
           <h3>High Converting Creatives</h3>
           <p>We develop pins from scratch to capture a quality image of your brand while opitmizing for SEO and conversion rates.</p>
         </div>

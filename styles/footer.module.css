@@ -1,19 +1,35 @@
 .main {
-  background-color: aliceblue;
+  /* background-color: var(--lightT); */
   display: flex;
   min-height: 350px;
   flex-wrap: wrap;
+
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.main > * {
+/* .main > * {
   border: 1px solid red;
-}
+} */
 .left {
   flex-grow: 1;
-  flex-basis: 200px;
+  flex-basis: 260px;
+  box-sizing: border-box;
+  padding: 35px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+.left p {
+  line-height: 1.6;
+  margin: 0 0 35px 0;
+  max-width: 400px;
+}
+
 .right {
   flex-grow: 4;
-  flex-basis: 300px;
+  flex-basis: 350px;
 
   box-sizing: border-box;
   padding: 20px;
@@ -28,10 +44,10 @@
   margin-top: 50px;
 
   flex-basis: 150px;
-  border: 1px solid green;
 }
 .right a {
   text-decoration: none;
   color: inherit;
   margin: 10px 0;
+  color: var(--light);
 }

@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import WhyPinterest from '../components/WhyPinterest'
 import OurServices from '../components/OurServices'
 import WhyUs from '../components/WhyUs'
+import Work from '../components/Work'
 import Footer from '../components/footer'
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
         <div className={classes.linksAndBtn}>
           <ul className={classes.links}>
             <li><a href="http://localhost:3000">Our Results</a></li>
-            <li><a href="http://localhost:3000">Why Chooose Us</a></li>
+            <li><a href="http://localhost:3000">Why Us</a></li>
             <li><a href="http://localhost:3000">Why Pinterest</a></li>
           </ul>
           <button className={classes.contactBtn} >Contact Sales</button>
@@ -29,9 +30,10 @@ export default function Home() {
       <div className='content'>
       {/* <Hero />
       <WhyPinterest />
-      <OurServices /> */}
+      <OurServices />
       <WhyUs />
-      <Footer />
+      <Footer /> */}
+      <Work />
       </div>
     </div>
   )

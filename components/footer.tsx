@@ -6,12 +6,11 @@ const Footer = () => {
     <div className={classes.main}>
       <div className={classes.left}>
         <h1>Pinning Bees</h1>
-        <p>A marketing company with innovative ideas.</p>
+        <p>A marketing company with innovative ideas to take your brand to the next level with evergree, organic traffic.</p>
         <div className={classes.socials}>
           <img src='/icons/fb.png' alt='facebook'></img>
           <img src='/icons/pinterest.png' alt='pinterest'></img>
           <img src='/icons/linkedin.png' alt='linkedIn'></img>
-          <img src='/icons/ig.png' alt='instagram'></img>
         </div>
       </div>
       <div className={classes.right}>

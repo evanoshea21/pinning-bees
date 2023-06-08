@@ -38,7 +38,7 @@ const WhyPinterest = () => {
           <h3>Cost Effective</h3>
           <p>Due to the lower demand of Pinterest Marketing, Cost-per-click is 40% less than comparable platforms.
           <br/><br/>
-          This means you'll be getting your brand in front of more eyes, for less.
+          2.3x lower cost per conversion compared to other platforms.
           </p>
         </div>
       </div>

@@ -1,6 +1,7 @@
 .main {
   background-color: var(--grey);
   height: 600px;
+  margin: 0;
 
   display: flex;
 }
