@@ -43,6 +43,7 @@
 .cards h3 {
   text-align: center;
   margin: 35px 0;
+  /* color: var(--red); */
 }
 .cards p {
   text-align: justify;

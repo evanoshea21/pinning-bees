@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import WhyPinterest from '../components/WhyPinterest'
 import OurServices from '../components/OurServices'
 import WhyUs from '../components/WhyUs'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
       <WhyPinterest />
       <OurServices /> */}
       <WhyUs />
+      <Footer />
       </div>
     </div>
   )
