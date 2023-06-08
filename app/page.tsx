@@ -28,12 +28,12 @@ export default function Home() {
       <div className={classes.navbarGap}></div>
       {/* CONTENT */}
       <div className='content'>
-      {/* <Hero />
+      <Hero />
       <WhyPinterest />
       <OurServices />
       <WhyUs />
-      <Footer /> */}
       <Work />
+      <Footer />
       </div>
     </div>
   )
