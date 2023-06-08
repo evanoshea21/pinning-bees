@@ -53,3 +53,39 @@
 .left {
   border: 1px solid grey;
 }
+
+.explainerPara {
+  display: none;
+}
+
+@media (max-width: 680px) {
+  .content {
+    flex-direction: column-reverse;
+  }
+  .right h2 {
+    margin: 0;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .right img {
+    display: none;
+  }
+  .subheader {
+    margin-bottom: 10px;
+  }
+  .right > * {
+    padding: 20px;
+    margin: 9px;
+  }
+  .right p {
+    margin: 14px 0 0 0;
+    display: none;
+  }
+  .right {
+    display: flex;
+    justify-content: center;
+  }
+  .explainerPara {
+    display: block;
+  }
+}

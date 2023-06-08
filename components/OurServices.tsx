@@ -36,8 +36,8 @@ const OurServices = () => {
       <div className={classes.right}>
         <div className={classes.rightContent}>
           <div className={classes.spacer}>Services</div>
-          <h2>We offer Full-Account Management & Pinterest Ads</h2>
-          <p>We deliver refined Pinterest Marketing with data-driven results. We offer brand-centric content and ad campaign monitoring.</p>
+          <h2 className={classes.header} >We offer Full-Account Management & Pinterest Ads</h2>
+          <p className={classes.subheader} >We deliver refined Pinterest Marketing with data-driven results. We offer brand-centric content and ad campaign monitoring.</p>
         </div>
       </div>
 

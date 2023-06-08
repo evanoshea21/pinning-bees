@@ -59,3 +59,20 @@
   /* text-align: justify; */
   margin: 0;
 }
+
+.break {
+  display: none;
+}
+@media (max-width: 500px) {
+  .break {
+    display: block;
+  }
+  .cards {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 380px) {
+  .header {
+    font-size: 2.3rem;
+  }
+}

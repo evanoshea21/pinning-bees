@@ -30,10 +30,11 @@
 .cards {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   margin: 30px 0;
 }
 .cards > * {
-  flex: 1;
+  flex: 1 1 190px;
   background-color: var(--grey);
   border-radius: 30px;
   color: var(--navy);
@@ -64,4 +65,37 @@
     margin-left: auto;
     margin-right: auto;
   }
+}
+@media (max-width: 1000px) {
+  .cards {
+    flex-direction: column;
+    /* border: 3px solid green; */
+  }
+  .cards > * {
+    display: flex;
+    max-width: 400px;
+    margin: 10px auto;
+  }
+  .cardContent {
+    flex: 3;
+  }
+  .imgBox {
+    flex: 1;
+  }
+
+}
+@media (max-width: 490px) {
+  .cards {
+    flex-direction: row;
+  }
+  .cards > * {
+    display: block;
+    max-width: none;
+    margin: 10px;
+  }
+  .cards img {
+    margin-top: 25px;
+  }
+
+
 }

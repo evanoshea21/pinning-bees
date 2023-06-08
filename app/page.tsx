@@ -31,15 +31,17 @@ export default function Home() {
       <div className={classes.navbarGap}></div>
       {/* CONTENT */}
       <div className='content'>
-      <Hero />
+      {/* <Hero />
       <Stats />
       <WhyPinterest />
       <WhyUs />
       <OurServices />
+      */}
       <Work />
+       {/*
       <TakeAction />
       <FAQ />
-      <Footer />
+      <Footer /> */}
 
       </div>
     </div>

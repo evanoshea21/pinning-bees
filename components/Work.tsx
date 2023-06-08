@@ -55,6 +55,7 @@ const Work = () => {
           </div>
           <p>This is another case study where we received 19 million impressions in less than 3 months. This is a result of our data-driven strategies.</p>
         </div>
+        <p className={classes.explainerPara} >This is another case study where we received 19 million impressions in less than 3 months. This is a result of our data-driven strategies.</p>
       </div>
 
     </div>

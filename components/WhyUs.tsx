@@ -5,7 +5,8 @@ const WhyUs = () => {
   return (
     <div className={classes.main}>
       <div className={classes.headers}>
-        <h2 className={classes.header} >Why Brands Trust Us</h2>
+        <h2 className={classes.header} >
+          Why Brands <br className={classes.break}/>Trust Us</h2>
         <p className={classes.subheader} >We pride ourselves in our professional procedure for serving our clients most effectively.</p>
       </div>
       <div className={classes.cards}>
