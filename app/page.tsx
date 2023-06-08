@@ -36,10 +36,10 @@ export default function Home() {
       <WhyPinterest />
       <WhyUs />
       <OurServices />
-      */}
       <Work />
-       {/*
+      */}
       <TakeAction />
+       {/*
       <FAQ />
       <Footer /> */}
 

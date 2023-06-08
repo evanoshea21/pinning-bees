@@ -2,6 +2,10 @@
 import React from 'react'
 import classes from '../styles/Work.module.css'
 
+const description1: string = 'Pinning Bees case studio shows extremely consistent results, with 100% of pins receiving at least 9,000 impressions and ranging to 25k impressions.';
+const description2: string = 'Our flagship content format is this stunning 3D rendering of your product displayed included in a scroll-stopping animation video.';
+const description3: string = 'This is another case study where we received 19 million impressions in less than 3 months. This is a result of our data-driven strategies.';
+
 const Work = () => {
   const [media, setMedia] = React.useState(1);
 
@@ -12,9 +16,18 @@ const Work = () => {
 
       <div className={classes.content}>
 
+      {/* MEDIA PANE */}
       <div className={classes.left}>
-        Media Goes Here
+        <p className={classes.explainerPara} >
+          {media === 1 && description1}
+          {media === 2 && description2}
+          {media === 3 && description3}
+        </p>
+        <div className={classes.media}>
+          Media Goes Here
+        </div>
       </div>
+      {/* SELECTION PANE */}
       <div className={classes.right}>
         <div className={classes.row1}
         onClick={() => setMedia(1)}
@@ -27,7 +40,7 @@ const Work = () => {
             <h2>Viral Pins</h2>
             <img src='/icons/arrow-ur.png' alt='arrow'></img>
           </div>
-          <p>Pinning Bees case studio shows extremely consistent results, with 100% of pins receiving at least 9,000 impressions and ranging to 25k impressions.</p>
+          <p>{description1}</p>
         </div>
         <div className={classes.row2}
         onClick={() => setMedia(2)}
@@ -40,7 +53,7 @@ const Work = () => {
             <h2>3D Rendering</h2>
             <img src='/icons/arrow-ur.png' alt='arrow'></img>
           </div>
-          <p>Our flagship content format is this stunning 3D rendering of your product displayed included in a scroll-stopping animation video.</p>
+          <p>{description2}</p>
         </div>
         <div className={classes.row3}
         onClick={() => setMedia(3)}
@@ -53,9 +66,8 @@ const Work = () => {
             <h2>Case Study #2</h2>
             <img src='/icons/arrow-ur.png' alt='arrow'></img>
           </div>
-          <p>This is another case study where we received 19 million impressions in less than 3 months. This is a result of our data-driven strategies.</p>
+          <p>{description3}</p>
         </div>
-        <p className={classes.explainerPara} >This is another case study where we received 19 million impressions in less than 3 months. This is a result of our data-driven strategies.</p>
       </div>
 
     </div>

@@ -17,6 +17,10 @@
   /* border: 1px solid green; */
 }
 
+.right {
+  border: 1px solid silver;
+}
+
 .left {
   box-sizing: border-box;
   padding: 20px;
@@ -26,7 +30,8 @@
 }
 
 .left h2 {
-  font-size: 3rem;
+  /* font-size: 3rem; */
+  font-size: clamp(1rem, 4vw,3rem);
   margin: 10px;
 }
 
@@ -41,6 +46,42 @@
 .left button:hover {
   background-color: var(--red);
   /* color: var(--red); */
+
+}
+
+@media (max-width: 800px) {
+  .right {
+    display: none;
+  }
+  .main {
+    background-image: url('/bgTile1.jpg');
+    background-size: cover;
+  }
+  .left h2 {
+    /* font-size: 3rem; */
+    font-size: clamp(33px, 7vw,3rem);
+    margin: 10px;
+  }
+}
+.smallH2 {
+  display: none;
+}
+.header {
+  display: block;
+}
+@media (max-width: 410px) {
+  .header {
+    display: none;
+  }
+  .smallH2 {
+    display: block;
+  }
+
+}
+@media (max-width: 350px) {
+  .smallH2 {
+    font-size: 1.3rem;
+  }
 
 }
 
