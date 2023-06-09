@@ -24,9 +24,12 @@
 }
 .left h1 {
   font-size: 2.4rem;
+  /* z-index: -1; */
+
 }
 .left p {
   font-size: 1.1rem;
+  /* z-index: -1; */
 }
 .left span {
   color: var(--red);
@@ -37,7 +40,7 @@
   /* text-align: justify; */
 }
 .left > * {
-  transform: translateY(-60px);
+  /* transform: translateY(-60px); */
   max-width: 400px;
 }
 
@@ -46,6 +49,11 @@
   height: 90%;
 }
 
+@media (min-width: 750px) {
+  .left > * {
+    transform: translateY(-60px);
+  }
+}
 @media (max-width: 750px) {
   .img {
     max-height: 365px;
@@ -55,7 +63,7 @@
   justify-content: center;
   }
   .left > * {
-    transform: translateY(0px);
+    /* transform: translateY(0px); */
   }
   .left {
     padding: 0 20px;

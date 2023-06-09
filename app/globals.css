@@ -24,3 +24,9 @@ body, html {
   /* border: 10px solid green; */
   margin: 100px 0;
 }
+
+@media (max-width: 400px) {
+  .content > * {
+    margin: 60px 0;
+  }
+}

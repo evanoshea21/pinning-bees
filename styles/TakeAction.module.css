@@ -38,14 +38,13 @@
 .left button {
   font-size: 1rem;
   padding: 20px 30px;
-  background-color: var(--navy);
+  background-color: var(--red);
   color: var(--grey);
   border: none;
   border-radius: 14px;
 }
 .left button:hover {
-  background-color: var(--red);
-  /* color: var(--red); */
+  background-color: var(--navy);
 
 }
 

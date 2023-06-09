@@ -5,69 +5,6 @@
   height: 300vh;
 }
 
-/* NAVBAR */
 .navbarGap {
   height: 130px;
-}
-.navbar {
-  background-color: var(--greyT);
-  position: fixed;
-  width: 100%;
-  height: 130px;
-  z-index: 10;
-}
-.navContent {
-  width: 100%;
-  height: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-
-  /* border: 1px solid red; */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-}
-/* .navContent > * {
-  border: 1px solid blue;
-} */
-
-.links {
-  display: flex;
-}
-
-.links li {
-  list-style-type: none;
-  margin: 0 14px;
-}
-.links li a {
-  transition: color .2s ease;
-}
-.links li a:hover {
-  color: var(--red);
-}
-.links * {
-  text-decoration: none;
-  color: var(--light);
-}
-
-.logo {
-  margin-left: 50px;
-}
-.linksAndBtn {
-  display: flex;
-}
-.contactBtn {
-  margin: 0 20px 0 60px;
-
-  padding: 15px 26px;
-  font-size: 1rem;
-  background-color: var(--red);
-  color: var(--grey);
-  border: none;
-  cursor: pointer;
-  border-radius: 10px;
-}
-.contactBtn:hover {
-  background-color: var(--navy);
 }
