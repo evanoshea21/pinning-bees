@@ -8,7 +8,10 @@ const Hero = () => {
   return (
     <div className={classes.main}>
       <div className={classes.left}>
-        <h1>Evergreen, Organic Traffic on <span>Pinterest</span></h1>
+        <div className={classes.header}>
+          <h1>Evergreen, Organic Traffic on <span>Pinterest</span></h1>
+          <img className={classes.img}  src='/beeTrail.png' alt=''></img>
+        </div>
         <p>We get your pins ranked highly so you can focus on your business.</p>
       </div>
       <div className={classes.right}>
