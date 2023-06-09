@@ -27,6 +27,8 @@
   border-bottom: 1px solid var(--light);
 
   position: relative;
+  z-index: -1;
+
 }
 
 .q {
@@ -35,6 +37,8 @@
   margin: 0;
 
   position: absolute;
+  z-index: -1;
+
   top: 60px;
   left: 50px;
   transform: translateY(-50%);

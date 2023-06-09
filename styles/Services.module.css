@@ -61,6 +61,7 @@
 .spacer {
   position: relative;
   padding-left: 100px;
+  z-index: -1;
 }
 .spacer::before {
   content: '';
@@ -96,4 +97,13 @@
     flex-direction: column;
     align-items: center;
   }
+  .card1, .card2, .card3, .card4 {
+    width: calc(100% - 30px);
+    margin: 15px;
+    height: fit-content;
+  }
+  .card3 {
+    margin-top: 0;
+  }
+
 }

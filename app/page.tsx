@@ -8,14 +8,11 @@ import Work from '../components/Work'
 import TakeAction from '../components/TakeAction'
 import FAQ from '../components/FAQ'
 import Footer from '../components/footer'
-import {Nav, SmNav} from '../components/Nav'
 
 export default function Home() {
   return (
     <div className={classes.main}>
-      <Nav />
-      <SmNav />
-      <div className={classes.navbarGap}></div>
+
       {/* CONTENT */}
       <div className='content'>
       <Hero />

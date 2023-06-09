@@ -1,0 +1,17 @@
+.main {
+  background-color: aliceblue;
+  max-width: 1200px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.header {
+  text-align: center;
+}
+
+.form textarea {
+  font-family: Lato;
+  resize: none;
+}

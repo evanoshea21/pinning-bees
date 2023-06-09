@@ -11,7 +11,7 @@ const Nav = () => {
       <h1 className={classes.logo}>The Pinning Bees</h1>
       <div className={classes.linksAndBtn}>
         <ul className={classes.links}>
-          <li><a href="http://localhost:3000">Our Results</a></li>
+          <li><a href="#work">Our Results</a></li>
           <li><a href="http://localhost:3000">Why Us</a></li>
           <li><a href="http://localhost:3000">Why Pinterest</a></li>
         </ul>
@@ -48,7 +48,7 @@ const SmNav = () => {
       >
         <div className={classes.cols}>
           <ul className={classes.smLinks}>
-            <li><a href="http://localhost:3000">Our Results</a></li>
+            <li><a href="#work">Our Results</a></li>
             <li><a href="http://localhost:3000">Why Us</a></li>
             <li><a href="http://localhost:3000">Why Pinterest</a></li>
           </ul>

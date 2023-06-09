@@ -1,5 +1,9 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import Head from 'next/head'
+import {Nav, SmNav} from '../components/Nav'
+import classes from './page.module.css'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,7 +19,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <Head>
+      <link
+        rel="icon"
+        href="/favicon.ico"
+        // type="image/ico"
+        // sizes="<generated>"
+      />
+
+      </Head>
+      <body className={inter.className}>
+        <Nav />
+        <SmNav />
+        <div className={classes.navbarGap}></div>
+        {children}
+      </body>
     </html>
   )
 }

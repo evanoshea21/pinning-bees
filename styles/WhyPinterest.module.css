@@ -39,7 +39,7 @@
   border-radius: 30px;
   color: var(--navy);
   margin: 10px;
-  padding: 10px 40px;
+  padding: 10px 40px 20px 40px;
 }
 .cards img {
   margin-top: 50px;
@@ -92,6 +92,7 @@
     display: block;
     max-width: none;
     margin: 10px;
+    padding: 18px;
   }
   .cards img {
     margin-top: 25px;
