@@ -1,6 +1,7 @@
 'use client';
 import React from 'react'
 import classes from '../styles/nav.module.css'
+import Link from 'next/link'
 
 const Nav = () => {
 
@@ -8,14 +9,22 @@ const Nav = () => {
     <nav className={classes.navbar} >
     <div className={classes.navContent}>
 
-      <h1 className={classes.logo}>The Pinning Bees</h1>
+      <h1 className={classes.logo}>
+        <Link href='/' className={classes.logoLink} >
+          The Pinning Bees
+        </Link>
+      </h1>
       <div className={classes.linksAndBtn}>
         <ul className={classes.links}>
           <li><a href="#work">Our Results</a></li>
           <li><a href="http://localhost:3000">Why Us</a></li>
           <li><a href="http://localhost:3000">Why Pinterest</a></li>
         </ul>
-        <button className={classes.contactBtn} >Contact Sales</button>
+        <Link href='/contact'>
+          <button className={classes.contactBtn} >
+          Contact Sales
+          </button>
+        </Link>
         <div className={classes.btnBox}>
           <button className={classes.contactSm} >Contact</button>
         </div>
