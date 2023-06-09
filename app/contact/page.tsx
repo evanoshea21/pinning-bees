@@ -1,8 +1,10 @@
 'use client';
+import React from 'react'
 import classes from '../../styles/ContactPage.module.css'
-import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser'
 
 const ContactPage = () => {
+  const [loading, setLoading] = React.useState(false);
 
   function submitForm(e: any) {
     e.preventDefault();

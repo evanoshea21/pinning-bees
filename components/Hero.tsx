@@ -12,7 +12,9 @@ const Hero = () => {
         <p>We get your pins ranked highly so you can focus on your business.</p>
       </div>
       <div className={classes.right}>
-        <img className={classes.img}  src='/heroImage.svg' alt='Pinterest Marketing'></img>
+        <div className={classes.imgBox}>
+          <img className={classes.img}  src='/heroImage.png' alt='Pinterest Marketing'></img>
+        </div>
       </div>
     </div>
   )
