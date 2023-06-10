@@ -45,7 +45,7 @@
 }
 .left button:hover {
   background-color: var(--navy);
-
+  cursor: pointer;
 }
 
 @media (max-width: 800px) {
