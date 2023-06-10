@@ -1,6 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import Head from 'next/head'
+// import Head from 'next/head'
 import {Nav, SmNav} from '../components/Nav'
 import classes from './page.module.css'
 
@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
+      {/* <Head>
       <link
         rel="icon"
         href="/favicon.ico"
@@ -27,7 +27,7 @@ export default function RootLayout({
         // sizes="<generated>"
       />
 
-      </Head>
+      </Head> */}
       <body className={inter.className}>
         <Nav />
         <SmNav />

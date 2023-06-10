@@ -2,7 +2,9 @@
   color: var(--navy);
   /* background-color: blue; */
   /* max-width: 1400px; */
-  height: 300vh;
+  /* height: 300vh; */
+
+  overflow-x: hidden;
 }
 
 .navbarGap {

@@ -5,6 +5,7 @@ import Image from 'next/image'
 import classes from '../styles/FAQ.module.css'
 
 interface Obj { [key: number]: string; }
+interface Obj2 { [key: number]: boolean; }
 
 const FAQ = () => {
   const [qHeight, setQHeight] = React.useState<Obj>({
@@ -12,9 +13,23 @@ const FAQ = () => {
     1: '120px',
     2: '120px',
   });
-  const [imageSize, setImageSize] = React.useState(20)
+  const [arrow, setArrow] = React.useState<Obj2>({
+    0: true,
+    1: true,
+    2: true,
+  });
+  const imageSize = 30;
+
+  function toggleArrow(n: number) {
+    setArrow(prev => {
+      let obj = prev;
+      obj[n] = prev[n] ? false : true;
+      return obj;
+    })
+  }
 
   function toggleHeight(n: number) {
+    toggleArrow(n);
     //if current height is not 120, set to 120
     if(qHeight[n] !== '120px') {
       setQHeight(prev => (
@@ -41,12 +56,17 @@ const FAQ = () => {
         onClick={() => toggleHeight(0)}
         style={{height: qHeight[0]}}
         >
-          <h3 className={classes.q} >What is SEO?</h3>
+          <h3 className={classes.q} >What is SEO??</h3>
           <Image
-          src={'/icons/arrow-ur.png'}
+          src={'/icons/toggle.png'}
           width={imageSize}
           height={imageSize}
           alt='arrow'
+          style={{
+            transform: `rotate(${arrow[0] ? '0' : '180'}deg) translateY(-50%) `,
+            transformOrigin: '50% 0',
+            transition: 'all .7s ease'
+          }}
           />
           <p className={`${classes.a} a`} >SEO stands for Search Engine Optimization. It is the practice of optimizing a website to increase the quantity and quality of traffic from organic search engine results. This involves optimizing the website's content, structure, and other elements to make it more appealing to search engines and improve its ranking in search results. The ultimate goal of SEO is to increase visibility and drive traffic to a website, which can lead to increased sales or other business objectives. structure, and other elements to make it more appealing to search engines and improve its ranking in search results. The ultimate goal of SEO is to increase visibility and drive traffic to a website, which can lead to increased sales or other business objectives. engines and improve its ranking in search results. The ultimate goal of SEO is to increase visibility and drive traffic to a website, which can lead to increased sales or other business objectives. structure, and other elements to make it more appealing to search engines and improve its ranking in search results. The ultimate goal of SEO is to increase visibility and drive traffic to a website, which can lead to increased sales or other business objectives.</p>
         </div>
@@ -56,10 +76,15 @@ const FAQ = () => {
         >
           <h3 className={classes.q} >What is Marketing?</h3>
           <Image
-          src={'/icons/arrow-ur.png'}
+          src={'/icons/toggle.png'}
           width={imageSize}
           height={imageSize}
           alt='arrow'
+          style={{
+            transform: `rotate(${arrow[1] ? '0' : '180'}deg) translateY(-50%) `,
+            transformOrigin: '50% 0',
+            transition: 'all .7s ease'
+          }}
           />
           <p className={`${classes.a} a`} >Marketing is... stands for Search Engine Optimization. It is the practice of optimizing a website to increase the quantity and quality of traffic from organic search engine results. This involves optimizing the website's content, structure, and other elements to make it more appealing to search engines and improve its ranking in search results. The ultimate goal of SEO is to increase visibility and drive traffic to a website, which can lead to increased sales or other business objectives.</p>
         </div>
@@ -69,10 +94,15 @@ const FAQ = () => {
         >
           <h3 className={classes.q} >Why should I use Pinterest?</h3>
           <Image
-          src={'/icons/arrow-ur.png'}
+          src={'/icons/toggle.png'}
           width={imageSize}
           height={imageSize}
           alt='arrow'
+          style={{
+            transform: `rotate(${arrow[2] ? '0' : '180'}deg) translateY(-50%) `,
+            transformOrigin: '50% 0',
+            transition: 'all .7s ease'
+          }}
           />
           <p className={`${classes.a} a`} >You should use Pinterest because... stands for Search Engine Optimization. It is the practice of optimizing a website to increase the quantity and quality of traffic from organic search engine results. This involves optimizing the website's content, structure, and other elements to make it more appealing to search engines and improve its ranking in search results. The ultimate goal of SEO is to increase visibility and drive traffic to a website, which can lead to increased sales or other business objectives.</p>
         </div>

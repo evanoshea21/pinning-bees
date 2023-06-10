@@ -1,6 +1,6 @@
 'use client';
 import React from 'react'
-import classes from '../../styles/ContactPage.module.css'
+import classes from './page.module.css'
 import emailjs from '@emailjs/browser'
 import Link from 'next/link'
 

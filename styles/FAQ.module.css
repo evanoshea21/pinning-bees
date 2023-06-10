@@ -27,7 +27,7 @@
   border-bottom: 1px solid var(--light);
 
   position: relative;
-  z-index: -1;
+  /* z-index: -1; */
 
 }
 
@@ -37,7 +37,7 @@
   margin: 0;
 
   position: absolute;
-  z-index: -1;
+  /* z-index: -1; */
 
   top: 60px;
   left: 50px;
@@ -49,7 +49,6 @@
   position: absolute;
   top: 60px;
   right: 50px;
-  transform: translateY(-50%);
 }
 
 .a {

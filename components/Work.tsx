@@ -24,7 +24,11 @@ const Work = () => {
           {media === 3 && description3}
         </p>
         <div className={classes.media}>
-          Media Goes Here
+
+          {/* MEDIA */}
+          <div className={classes.vimeoVid}>
+            <div style={{padding: '56.25% 0 0 0',position:'relative', marginTop: 'auto', marginBottom: 'auto'}}><iframe src="https://player.vimeo.com/video/834939088?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen style={{position: 'absolute', top: '0', left:'0', width: '100%', height:'100%'}} title="SodaFInal (3)"></iframe></div>
+          </div>
         </div>
       </div>
       {/* SELECTION PANE */}

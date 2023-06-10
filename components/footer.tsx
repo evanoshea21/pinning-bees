@@ -1,4 +1,5 @@
 import classes from '../styles/footer.module.css'
+import Link from 'next/link'
 
 const Footer = () => {
 
@@ -8,9 +9,12 @@ const Footer = () => {
         <h1>Pinning Bees</h1>
         <p>A marketing company with innovative ideas to take your brand to the next level with evergree, organic traffic.</p>
         <div className={classes.socials}>
-          <img src='/icons/fb.png' alt='facebook'></img>
-          <img src='/icons/pinterest.png' alt='pinterest'></img>
-          <img src='/icons/linkedin.png' alt='linkedIn'></img>
+          <Link href='http://facebook.com'>
+            <img src='/icons/fb.png' alt='facebook'></img>
+          </Link>
+          <Link href='http://linkedin.com'>
+            <img src='/icons/linkedin.png' alt='linkedIn'></img>
+          </Link>
         </div>
       </div>
       <div className={classes.right}>

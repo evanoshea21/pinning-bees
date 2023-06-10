@@ -46,8 +46,13 @@ const SmNav = () => {
   return (
     <nav className={classes.smNavbar} >
       <div className={classes.smNavContent}>
-        <h1 className={classes.smLogo}>The Pinning Bees</h1>
-        <img className={classes.icon}  src='/icons/arrow-ur.png' alt='arrow'
+        <Link href='/' style={{
+          textDecoration: 'none',
+          color: 'var(--navy)'
+        }}>
+          <h1 className={classes.smLogo}>The Pinning Bees</h1>
+        </Link>
+        <img className={classes.icon}  src='/icons/hamburger.png' alt='toggle'
         onClick={toggleHeight}
         ></img>
       </div>
@@ -62,7 +67,11 @@ const SmNav = () => {
             <li><a href="http://localhost:3000">Why Pinterest</a></li>
           </ul>
           <div className={classes.btnBox}>
-            <button className={classes.contactSm} >Contact</button>
+            <Link href='/contact'>
+              <button className={classes.contactSm}
+              onClick={toggleHeight}
+              >Contact</button>
+            </Link>
           </div>
         </div>
       </div>

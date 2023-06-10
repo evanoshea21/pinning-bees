@@ -29,6 +29,7 @@
   flex: 1;
 }
 
+
 /* RIGHT */
 
 .right > * {
@@ -51,7 +52,13 @@
 
 /* LEFT */
 .left {
-  border: 1px solid rgba(128, 128, 128, 0.328);
+  /* border: 1px solid rgba(128, 128, 128, 0.328); */
+  /* display: flex;
+  align-items: center; */
+  padding: 15px;
+}
+.vimeoVid {
+  transform: translateY(50%);
 }
 
 .explainerPara {
@@ -63,6 +70,9 @@
 @media (max-width: 680px) {
   .content {
     flex-direction: column-reverse;
+  }
+  .vimeoVid {
+    transform: translateY(10%);
   }
   .right h2 {
     margin: 0;
