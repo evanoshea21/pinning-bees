@@ -85,6 +85,9 @@
 
 }
 @media (max-width: 490px) {
+  .main {
+    width: 100%;
+  }
   .cards {
     flex-direction: row;
   }

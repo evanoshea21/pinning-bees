@@ -2,7 +2,7 @@
 import React from 'react'
 import classes from '../styles/Work.module.css'
 
-const description1: string = 'Pinning Bees case studio shows extremely consistent results, with 100% of pins receiving at least 9,000 impressions and ranging to 25k impressions.';
+const description1: string = 'Pinning Beez case studio shows extremely consistent results, with 100% of pins receiving at least 9,000 impressions and ranging to 25k impressions.';
 const description2: string = 'Our flagship content format is this stunning 3D rendering of your product displayed included in a scroll-stopping animation video.';
 const description3: string = 'This is another case study where we received 19 million impressions in less than 3 months. This is a result of our data-driven strategies.';
 

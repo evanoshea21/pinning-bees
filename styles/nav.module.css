@@ -127,10 +127,6 @@
 }
 .dropdown {
   background-color: var(--grey);
-  /* display: none; */
-  /* display: absolute;
-  top: 100%; */
-  /* border: 1px solid green; */
   z-index: 100;
   transition: all .6s ease;
 

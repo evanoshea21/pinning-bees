@@ -46,12 +46,14 @@ const SmNav = () => {
   return (
     <nav className={classes.smNavbar} >
       <div className={classes.smNavContent}>
+      <h1 className={classes.smLogo}>
         <Link href='/' style={{
           textDecoration: 'none',
           color: 'var(--navy)'
         }}>
-          <h1 className={classes.smLogo}>The Pinning Bees</h1>
+          The Pinning Bees
         </Link>
+        </h1>
         <img className={classes.icon}  src='/icons/hamburger.png' alt='toggle'
         onClick={toggleHeight}
         ></img>

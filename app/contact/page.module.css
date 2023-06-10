@@ -23,7 +23,8 @@
   width: 100%;
   box-sizing: border-box;
   border-radius: 10px;
-  border: none;
+  /* border: none; */
+  border: 1px solid var(--grey2);
   background-color: aliceblue;
 }
 .form input:focus, .form textarea:focus {

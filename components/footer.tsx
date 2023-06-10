@@ -7,7 +7,7 @@ const Footer = () => {
     <div className={classes.main}>
       <div className={classes.left}>
         <h1>Pinning Bees</h1>
-        <p>A marketing company with innovative ideas to take your brand to the next level with evergree, organic traffic.</p>
+        <p>A marketing company with innovative ideas to take your brand to the next level with evergreen, organic traffic.</p>
         <div className={classes.socials}>
           <Link href='http://facebook.com'>
             <img src='/icons/fb.png' alt='facebook'></img>
