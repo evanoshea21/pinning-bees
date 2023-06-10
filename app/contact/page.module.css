@@ -47,7 +47,7 @@
   font-family: Lato;
   resize: none;
 }
-.form button {
+.sendBtn {
   padding: 20px 30px;
   border-radius: 10px;
   background-color: var(--red);
@@ -56,6 +56,10 @@
   font-size: 1rem;
   margin: 20px auto;
   width: 240px;
+}
+.sendBtn:hover {
+  background-color: var(--navy);
+  cursor: pointer;
 }
 
 .status {

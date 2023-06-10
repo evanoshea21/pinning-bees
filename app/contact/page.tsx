@@ -38,20 +38,20 @@ const ContactPage = () => {
         <div className={classes.nameEmail}>
           <div className={classes.nameInputs}>
             <label htmlFor="name"></label>
-            <input type="text" name="from_name" id="name" placeholder='Your Name'/>
+            <input required type="text" name="from_name" id="name" placeholder='Your Name'/>
           </div>
 
           <div className={classes.emailInputs}>
             <label htmlFor="email"></label>
-            <input type="email" name="from_email" id="email" placeholder='Email'/>
+            <input required type="email" name="from_email" id="email" placeholder='Email'/>
           </div>
         </div>
 
         <label htmlFor="message"></label>
-        <textarea name="message" id="message" placeholder='Message'
+        <textarea required name="message" id="message" placeholder='Message'
         rows={10}
         />
-        <button type='submit'>Send Message</button>
+        <button className={classes.sendBtn}  type='submit'>Send Message</button>
       </form>
       )}
       {loading === 'loading' && (
