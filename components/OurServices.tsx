@@ -21,7 +21,7 @@ const OurServices = () => {
           </div>
           <div className={classes.col2}>
             <div className={classes.card3}>
-              <img src='/icons/seo2.png' alt='icon'></img>
+              <img src='/icons/seo3.png' alt='icon'></img>
               <h3>Copywriting</h3>
               <p>We write compelling SEO content that is designed to convert, gaining traction for our client's brands.</p>
             </div>
