@@ -6,7 +6,7 @@ const WhyPinterest = () => {
   return (
     <div className={classes.main}>
       <h1 className={classes.header} >Why Choose Pinterest to<br/>Market your Brand</h1>
-      <p className={classes.subheader} >Why you should choose pinterest instead of other major social media platforms</p>
+      <p className={classes.subheader} >Pinterest is the most sophisticated visual discovery engine in the world, and is the largest free traffic-driving tool for interactive marketing.</p>
 
       <div className={classes.cards}>
 
@@ -16,11 +16,11 @@ const WhyPinterest = () => {
         </div>
         <div className={classes.cardContent}>
           <h3>Shopping Intent</h3>
-          <p>Your audience on pinterest are primed to buy due to the nature of the platform.
-          <br/><br/>
-          People go to pinterest to find inspration!
-          <br/><br/>
-          Furthermore, the demographic of pinterst's audience are more afluent.
+          <p>
+          Pinterst has <span>5x more shopping intent than any other social media platform.</span>
+          <br/>
+          <br/>
+          Unlike Instagram and Facebook, the nature of Pinterest is future-focused, with 97% of users seeking inspiration from <span>non-branded products.</span>
           </p>
         </div>
         </div>
@@ -31,9 +31,9 @@ const WhyPinterest = () => {
           </div>
           <div className={classes.cardContent}>
             <h3>Long Shelf Life</h3>
-            <p>Unlike other platforms where your content is buried under a constantly updating feed, pinterest's pins rank organically.
+            <p>Unlike other platforms where your content is buried under a constantly updating feed, Pinterest pins rank organically.
             <br/><br/>
-            Say goodbye to short-lived pins and get ready for high ROI pins that are evergreen, bringing traffic to your brands forever.
+            <span>Say goodbye to short-lived ads and get ready for high-ROI pins that are evergreen</span>, bringing traffic to your brands for months, even years later.
             </p>
           </div>
         </div>
@@ -43,9 +43,10 @@ const WhyPinterest = () => {
         </div>
         <div className={classes.cardContent}>
           <h3>Cost Effective</h3>
-          <p>Due to the lower demand of Pinterest Marketing, Cost-per-click is 40% less than comparable platforms.
+          <p>Due to the lower competition of Pinterest Marketing, Cost-per-click (CPC) is 40% less than comparable platforms.
           <br/><br/>
-          2.3x lower cost per conversion compared to other platforms.
+          Leverage Pinterest Ads to <span>reach a larger audience, with a 2.3x lower cost-per-conversion</span> rate compared to other platforms.
+
           </p>
         </div>
         </div>

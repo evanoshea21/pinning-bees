@@ -18,8 +18,8 @@ export default function Home() {
       <Hero />
       <Stats />
       <WhyPinterest />
-      <WhyUs />
       <OurServices />
+      <WhyUs />
       <Work />
       <TakeAction />
       <FAQ />

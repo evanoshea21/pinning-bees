@@ -10,8 +10,8 @@ const Work = () => {
   const [media, setMedia] = React.useState(1);
 
   return (
-    <div className={classes.main} id='work'>
-      <h1>See Our Results</h1>
+    <div className={classes.main} id='CaseStudies'>
+      <h1 className={classes.mainHeader} >Case Studies</h1>
       <p className={classes.subheader} >Our results speak for themselves.</p>
 
       <div className={classes.content}>

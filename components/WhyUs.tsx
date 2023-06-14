@@ -3,7 +3,7 @@ import classes from '../styles/WhyUs.module.css'
 const WhyUs = () => {
 
   return (
-    <div className={classes.main}>
+    <div id='WhyUs' className={classes.main}>
       <div className={classes.headers}>
         <h2 className={classes.header} >
           Why Brands <br className={classes.break}/>Trust Us</h2>
@@ -15,21 +15,33 @@ const WhyUs = () => {
             <img src='/icons/expert.png' alt='icon'></img>
           </div>
           <h3>Expert Team</h3>
-          <p>We bring together top-level teams of pinterest strategists, analytic experts, account specialists, & digital designers to build the best Pinterest marketing plan for your business.</p>
+          <p>We bring together top-level teams of pinterest strategists, analytic experts, account specialists, & digital designers to build the best Pinterest marketing plan for your business.
+          <br/>
+          <br/>
+          Marie O'Shea, CEO & Founder, has been deemed an industry-leading expert in the field of Pinterest Marketing.
+
+          </p>
         </div>
         <div className={classes.card2}>
         <div className={classes.imgBox}>
           <img src='/icons/value.png' alt='icon'></img>
         </div>
-          <h3>High Value</h3>
-          <p>We have developed a streamlined process to output a large quantity of pins without compromising on quality. Our competitors offer 300 pins/month compared to our 600+.</p>
+          <h3>Full Transparency</h3>
+          <p>Our services operate with full transparency in mind. We let you know exactly how your account is run and the reasons behind the decisions we make.
+            <br/>
+            <br/>
+            We are committed to growing your brands with an ethical conscience and drive. </p>
         </div>
         <div className={classes.card3}>
         <div className={classes.imgBox}>
           <img src='/icons/conversion.png' alt='icon'></img>
         </div>
-          <h3>High Converting Creatives</h3>
-          <p>We develop pins from scratch to capture a quality image of your brand while opitmizing for SEO and conversion rates.</p>
+          <h3>Constantly Innovating</h3>
+          <p>Pinterest is constantly changing, so we see the importance of staying on top of trends and adapting to its ever-evolving algorithm.
+            <br/>
+            <br/>
+          At Pinning Bees, we have marketing strategists that stay on top of these changes to keep your content relevant over time.
+</p>
         </div>
       </div>
 

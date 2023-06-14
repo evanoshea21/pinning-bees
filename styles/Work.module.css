@@ -1,5 +1,5 @@
 .main {
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
   max-width: 1200px;
   border-radius: 30px;
 
@@ -17,9 +17,12 @@
   width: 20px;
   height: 20px;
 }
+.mainHeader {
+  margin-bottom: 5px;
+}
 .subheader {
-  margin-top: 5px;
-  margin-bottom: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .content {

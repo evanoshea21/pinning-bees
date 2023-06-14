@@ -14,8 +14,11 @@ const TakeAction = () => {
         </Link>
       </div>
       <div className={classes.right}>
-        Media Here
+
       </div>
+      <div className={classes.imgBox}>
+        <img src='/brandPins1.png' alt='brand pins'></img>
+        </div>
     </div>
   )
 }

@@ -14,6 +14,10 @@
   background-image: url('/honeycomb.jpg');
   background-size: cover;
 }
+.main span {
+  color: var(--red);
+  font-weight: 600;
+}
 
 .header {
   text-align: center;
@@ -23,7 +27,8 @@
   text-align: center;
   color: var(--grey);
   font-size: 1.2rem;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 600px;
 }
 
 /* CARDS */
