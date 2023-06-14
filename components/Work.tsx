@@ -11,7 +11,7 @@ const Work = () => {
 
   return (
     <div className={classes.main} id='CaseStudies'>
-      <h1 className={classes.mainHeader} >Case Studies</h1>
+      <h1 className={classes.mainHeader} >Our Work</h1>
       <p className={classes.subheader} >Our results speak for themselves.</p>
 
       <div className={classes.content}>
@@ -67,7 +67,7 @@ const Work = () => {
         }}
         >
           <div className={classes.header}>
-            <h2>Case Study #2</h2>
+            <h2>Case Study</h2>
             <img src='/icons/arrow-ur.png' alt='arrow'></img>
           </div>
           <p>{description3}</p>

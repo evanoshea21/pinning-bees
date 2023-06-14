@@ -8,6 +8,7 @@ const Footer = () => {
       <div className={classes.left}>
         <h1>Pinning Bees</h1>
         <p>A marketing company with innovative ideas to take your brand to the next level with evergreen, organic traffic.</p>
+        <p className={classes.plug} >Site made by <a target="_blank" href='https://evanoshea.dev'>Evan O'Shea</a></p>
         <div className={classes.socials}>
           <Link href='http://facebook.com'>
             <img src='/icons/fb.png' alt='facebook'></img>
@@ -16,6 +17,7 @@ const Footer = () => {
             <img src='/icons/linkedin.png' alt='linkedIn'></img>
           </Link>
         </div>
+        <p style={{margin: '30px 0 0 0'}}>Copyright © Pinnning Bees 2023</p>
       </div>
       <div className={classes.right}>
         <div className={classes.col1}>

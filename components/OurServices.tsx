@@ -9,24 +9,24 @@ const OurServices = () => {
         <div className={classes.leftContent}>
           <div className={classes.col1}>
             <div className={classes.card1}>
-              <img src='/icons/cost.png' alt='icon'></img>
+              <img src='/icons/package1.png' alt='icon'></img>
               <h3>Full-account Management</h3>
               <p>We provide A-to-Z Pinterest marketing services, so you can focus on growing your business.</p>
             </div>
             <div className={classes.card2}>
-              <img src='/icons/evergreen2.png' alt='icon'></img>
+              <img src='/icons/viralImages.png' alt='icon'></img>
               <h3>Viral Images</h3>
               <p>We create optimized images from scratch & scroll-stopping videos that separate you from the crowd. </p>
             </div>
           </div>
           <div className={classes.col2}>
             <div className={classes.card3}>
-              <img src='/icons/evergreen.png' alt='icon'></img>
+              <img src='/icons/seo2.png' alt='icon'></img>
               <h3>Copywriting</h3>
               <p>We write compelling SEO content that is designed to convert, gaining traction for our client's brands.</p>
             </div>
             <div className={classes.card4}>
-              <img src='/icons/evergreen3.png' alt='icon'></img>
+              <img src='/icons/monitor.png' alt='icon'></img>
               <h3>Ad Monitoring</h3>
               <p>We meticulously track the performance of your pins to strategically update them to improve conversions.</p>
             </div>

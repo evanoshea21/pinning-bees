@@ -24,7 +24,7 @@ const WhyUs = () => {
         </div>
         <div className={classes.card2}>
         <div className={classes.imgBox}>
-          <img src='/icons/value.png' alt='icon'></img>
+          <img src='/icons/trust.png' alt='icon'></img>
         </div>
           <h3>Full Transparency</h3>
           <p>Our services operate with full transparency in mind. We let you know exactly how your account is run and the reasons behind the decisions we make.
@@ -34,7 +34,7 @@ const WhyUs = () => {
         </div>
         <div className={classes.card3}>
         <div className={classes.imgBox}>
-          <img src='/icons/conversion.png' alt='icon'></img>
+          <img src='/icons/innovative.png' alt='icon'></img>
         </div>
           <h3>Constantly Innovating</h3>
           <p>Pinterest is constantly changing, so we see the importance of staying on top of trends and adapting to its ever-evolving algorithm.

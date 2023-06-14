@@ -3,7 +3,7 @@ import React from 'react'
 import classes from '../styles/nav.module.css'
 import Link from 'next/link'
 import $ from 'jquery'
-import {usePathname, useSearchParams} from 'next/navigation'
+import { usePathname } from 'next/navigation'
 
 const Nav = () => {
   const pathname = usePathname();
@@ -48,7 +48,7 @@ const Nav = () => {
       </h1>
       <div className={classes.linksAndBtn}>
         <ul className={classes.links}>
-          <li onClick={scrollToCaseStudies} >Case Studies</li>
+          <li onClick={scrollToCaseStudies} >Our Work</li>
           <li onClick={scrollToWhyUs} >Why Choose Us</li>
           {/* <li>Resources</li> */}
         </ul>
@@ -127,7 +127,7 @@ const scrollToCaseStudies = () => {
       >
         <div className={classes.cols}>
           <ul className={classes.smLinks}>
-          <li onClick={scrollToCaseStudies} >Case Studies</li>
+          <li onClick={scrollToCaseStudies} >Our Work</li>
           <li onClick={scrollToWhyUs} >Why Choose Us</li>
             <li>Resources</li>
           </ul>
