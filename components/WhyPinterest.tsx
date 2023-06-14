@@ -27,7 +27,7 @@ const WhyPinterest = () => {
 
         <div className={classes.card2}>
           <div className={classes.imgBox}>
-            <img src='/icons/evergreen.png' alt='icon'></img>
+            <img src='/icons/evergreen3.png' alt='icon'></img>
           </div>
           <div className={classes.cardContent}>
             <h3>Long Shelf Life</h3>
