@@ -23,7 +23,7 @@ const OurServices = () => {
             <div className={classes.card3}>
               <img src='/icons/seo3.png' alt='icon'></img>
               <h3>Copywriting</h3>
-              <p>We write compelling SEO content that is designed to convert, gaining traction for our client's brands.</p>
+              <p>We write compelling SEO content that is designed to convert, gaining traction for your brands.</p>
             </div>
             <div className={classes.card4}>
               <img src='/icons/monitor.png' alt='icon'></img>
