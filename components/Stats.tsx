@@ -8,11 +8,11 @@ const Stats = () => {
   return (
     <div className={classes.main}>
       <div className={classes.num1}>
-        <h3>300+</h3>
-        <p>Happy Customers</p>
+        <h3>6m</h3>
+        <p>Total Impressions</p>
       </div>
       <div className={classes.num2}>
-        <h3>1.26mil</h3>
+        <h3>1.26m</h3>
         <p>Pins Created</p>
       </div>
       <div className={classes.num3}>
@@ -20,8 +20,8 @@ const Stats = () => {
         <p>Years Experience</p>
       </div>
       <div className={classes.num4}>
-        <h3>6mil</h3>
-        <p>Lifetime Impressions</p>
+        <h3>30+</h3>
+        <p>Happy Clients</p>
       </div>
     </div>
   )
