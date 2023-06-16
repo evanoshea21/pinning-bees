@@ -32,10 +32,14 @@
   list-style-type: none;
   margin: 0 14px;
 }
-.links li {
+.links li, .links a {
   transition: color .2s ease;
 }
 .links li:hover {
+  color: var(--red);
+  cursor: pointer;
+}
+.links a:hover {
   color: var(--red);
   cursor: pointer;
 }

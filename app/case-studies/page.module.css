@@ -1,0 +1,47 @@
+.main {
+  /* border: 1px solid green; */
+  max-width: 1200px;
+
+  margin: 100px auto;
+  color: var(--navy);
+}
+.main a {
+  color: var(--red);
+}
+.main > * {
+  margin-left: auto;
+  margin-right: auto;
+}
+.main h2 {
+  margin-top: 70px;
+  /* margin-bottom: 70px; */
+}
+.main span {
+  font-weight: 600;
+}
+.header {
+  text-align: center;
+  font-size: 3rem;
+}
+.main p {
+  max-width: 700px;
+  font-size: 1.15rem;
+  padding: 25px;
+}
+.main h2 {
+  max-width: fit-content;
+  font-size: 2rem;
+}
+.imgBox1 {
+  display: flex;
+  justify-content: center;
+}
+.study1Img {
+  width: 80%;
+  max-width: 600px;
+}
+
+
+
+
+

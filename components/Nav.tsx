@@ -23,7 +23,7 @@ const Nav = () => {
   }, 600, 'swing');
   };
 
-  if(pathname === '/contact') {
+  if(pathname !== '/') {
     return (
     <nav className={classes.navbar} >
       <div className={classes.navContent}>
@@ -50,6 +50,7 @@ const Nav = () => {
         <ul className={classes.links}>
           <li onClick={scrollToCaseStudies} >Our Work</li>
           <li onClick={scrollToWhyUs} >Why Choose Us</li>
+          <li><Link href='/case-studies'>Case Studies</Link></li>
           {/* <li>Resources</li> */}
         </ul>
         <Link href='/contact'>
@@ -89,7 +90,7 @@ const scrollToCaseStudies = () => {
   setDropHeight('0px');
   };
 
-  if(pathname === '/contact') {
+  if(pathname !== '/') {
     return (
     <nav className={classes.smNavbar} >
     <div className={classes.smNavContent}>
@@ -129,7 +130,7 @@ const scrollToCaseStudies = () => {
           <ul className={classes.smLinks}>
           <li onClick={scrollToCaseStudies} >Our Work</li>
           <li onClick={scrollToWhyUs} >Why Choose Us</li>
-            <li>Resources</li>
+            <li onClick={() => setDropHeight('0px')} ><Link href='/case-studies'>Case Studies</Link></li>
           </ul>
           <div className={classes.btnBox}>
             <Link href='/contact'>
