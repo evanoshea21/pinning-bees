@@ -30,13 +30,13 @@ const CaseStudies = () => {
       This is powerful for SEO because the more backlinks from trusted sources, the more Pinterest will raise your ranking.
       </p>
       <div className={classes.imgBox1}>
-      <img className={classes.study1Img}  src='/study1.png' alt='study'></img>
+      <img className={classes.study1Img}  src='/study1.jpg' alt='study'></img>
       </div>
 
       {/* CASE STUDY 2 */}
       <h2>Case Study #2</h2>
       <div className={classes.imgBox1}>
-      <img className={classes.study1Img}  src='/study2.png' alt='study'></img>
+      <img className={classes.study1Img}  src='/study2.jpg' alt='study'></img>
       </div>
       <p>Monthly Views: 400,000 <br/>
       Top Viral Pin Impressions: 18,000
@@ -53,7 +53,7 @@ const CaseStudies = () => {
       {/* CASE STUDY 3 */}
       <h2>Case Study #3</h2>
       <div className={classes.imgBox1}>
-      <img className={classes.study1Img}  src='/study3.png' alt='study'></img>
+      <img className={classes.study1Img}  src='/study3.jpg' alt='study'></img>
       </div>
       <p>Monthly Views: 1.3 Million<br/>
       Top Viral Pin Impressions: 24,000
@@ -91,7 +91,7 @@ const CaseStudies = () => {
       {/* CASE STUDY 4 */}
       <h2>Case Study #4</h2>
       <div className={classes.imgBox1}>
-      <img className={classes.study1Img}  src='/study4.png' alt='study'></img>
+      <img className={classes.study1Img}  src='/study4.jpg' alt='study'></img>
       </div>
       <p>Monthly Views: 1.3 Million<br/>
       Top Viral Pin Impressions: 538,000
