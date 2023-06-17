@@ -43,18 +43,8 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.rev1, .rev2 {
-  border-right: 1px solid rgba(255, 192, 203, 0.408);
-}
-@media (max-width: 770px) {
-  .rev2 {
-    border-right: none;
-  }
-}
+
 @media (max-width: 520px) {
-  .rev1 {
-    border-right: none;
-  }
   .header h1 {
     margin-left: 10px;
   }
