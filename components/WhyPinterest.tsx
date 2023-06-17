@@ -17,7 +17,7 @@ const WhyPinterest = () => {
         <div className={classes.cardContent}>
           <h3>Shopping Intent</h3>
           <p>
-          Pinterst has <span>5x more shopping intent than any other social media platform.</span>
+          Pinterest has <span>5x more shopping intent than any other social media platform.</span>
           <br/>
           <br/>
           Unlike Instagram and Facebook, the nature of Pinterest is future-focused, with 97% of users seeking inspiration from <span>non-branded products.</span>

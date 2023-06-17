@@ -1,0 +1,86 @@
+.main {
+  /* background-color: aliceblue; */
+  max-width: 1200px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 70px;
+}
+@media (max-width: 1060px) {
+  .main {
+    padding: 20px;
+  }
+}
+.main * {
+  color: var(--navy2);
+}
+
+.header {
+  display: flex;
+}
+.header h1 {
+  margin: 40px 0 0 40px;
+}
+.header img {
+  width: 100px;
+  height: 100px;
+  opacity: .3;
+}
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.reviews > * {
+  /* border: 1px solid pink; */
+  flex-grow: 1;
+  flex-basis: 290px;
+  max-width: 400px;
+  margin: 0 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rev1, .rev2 {
+  border-right: 1px solid rgba(255, 192, 203, 0.408);
+}
+@media (max-width: 770px) {
+  .rev2 {
+    border-right: none;
+  }
+}
+@media (max-width: 520px) {
+  .rev1 {
+    border-right: none;
+  }
+  .header h1 {
+    margin-left: 10px;
+  }
+}
+.words {
+  padding: 20px;
+}
+
+.who {
+  display: flex;
+  align-items: center;
+}
+.who img {
+  width: 80px;
+  clip-path: circle(40%);
+}
+.whoInfo {
+  padding: 10px;
+}
+.whoInfo h5 {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+.whoInfo p {
+  margin: 0;
+  padding: 0;
+  color: var(--light)
+}

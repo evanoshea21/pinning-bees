@@ -8,6 +8,7 @@ import Work from '../components/Work'
 import TakeAction from '../components/TakeAction'
 import FAQ from '../components/FAQ'
 import Footer from '../components/footer'
+import Testimonials from '../components/Testimonials'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <OurServices />
       <WhyUs />
       <Work />
+      <Testimonials />
       <TakeAction />
       <FAQ />
       <Footer />
