@@ -12,11 +12,17 @@ const FAQ = () => {
     0: '120px',
     1: '120px',
     2: '120px',
+    3: '120px',
+    4: '120px',
+    5: '120px',
   });
   const [arrow, setArrow] = React.useState<Obj2>({
     0: true,
     1: true,
     2: true,
+    3: true,
+    4: true,
+    5: true,
   });
   const imageSize = 30;
 
@@ -127,7 +133,7 @@ const FAQ = () => {
           height={imageSize}
           alt='arrow'
           style={{
-            transform: `rotate(${arrow[2] ? '0' : '180'}deg) translateY(-50%) `,
+            transform: `rotate(${arrow[3] ? '0' : '180'}deg) translateY(-50%) `,
             transformOrigin: '50% 0',
             transition: 'all .7s ease'
           }}
@@ -149,7 +155,7 @@ const FAQ = () => {
           height={imageSize}
           alt='arrow'
           style={{
-            transform: `rotate(${arrow[2] ? '0' : '180'}deg) translateY(-50%) `,
+            transform: `rotate(${arrow[4] ? '0' : '180'}deg) translateY(-50%) `,
             transformOrigin: '50% 0',
             transition: 'all .7s ease'
           }}
@@ -171,7 +177,7 @@ const FAQ = () => {
           height={imageSize}
           alt='arrow'
           style={{
-            transform: `rotate(${arrow[2] ? '0' : '180'}deg) translateY(-50%) `,
+            transform: `rotate(${arrow[5] ? '0' : '180'}deg) translateY(-50%) `,
             transformOrigin: '50% 0',
             transition: 'all .7s ease'
           }}
