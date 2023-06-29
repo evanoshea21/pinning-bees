@@ -44,7 +44,6 @@
   }
 }
 
-
 .left p {
   font-size: 1.1rem;
   /* z-index: -1; */
@@ -92,8 +91,8 @@
     height: fit-content;
   }
   .right {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
   }
   .left > * {
     /* transform: translateY(0px); */
