@@ -17,9 +17,10 @@ export default function Home() {
       <div className="content">
         <Hero />
         <Stats />
+        <WhyPinterest />
         <div
           style={{
-            width: "90%",
+            width: "100%",
             maxWidth: "1000px",
             margin: "30px auto",
             objectFit: "contain",
@@ -27,7 +28,6 @@ export default function Home() {
         >
           <img src="/airport.gif" width="100%" />
         </div>
-        <WhyPinterest />
         <OurServices />
         <WhyUs />
         <Work />
