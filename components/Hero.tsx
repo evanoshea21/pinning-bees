@@ -17,8 +17,8 @@ const Hero = () => {
         <div className={classes.imgBox}>
           <img
             className={classes.img}
-            // src='/heroImage.png'
-            src="/pinsGifHD.webp"
+            src="/heroImage.png"
+            // src="/pinsGifHD.webp"
             alt="Pinterest Marketing"
           ></img>
         </div>
