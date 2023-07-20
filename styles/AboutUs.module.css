@@ -1,0 +1,110 @@
+.main {
+  /* border: 4px solid grey; */
+  margin-top: 0px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  color: var(--navy);
+}
+.hero {
+  display: flex;
+  margin: 30px;
+  gap: 20px;
+  align-items: center;
+}
+@media (max-width: 750px) {
+  .hero {
+    flex-direction: column;
+  }
+}
+.hero > * {
+  flex: 1;
+}
+
+.left h2 {
+  margin-bottom: 0;
+  font-weight: 200;
+  font-size: 2.2rem;
+}
+.left h1 {
+  margin-top: 8px;
+}
+
+.right img {
+  width: 100%;
+  transform: scale(1.1);
+}
+
+/* TEAM */
+.ourValues h1,
+.ourStory h1,
+.team h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.team,
+.ourStory,
+.ourValues {
+  margin-top: 70px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+@media (max-width: 680px) {
+  .team,
+  .ourStory,
+  .ourValues {
+    padding: 10px;
+  }
+}
+
+/* PROFILE BIO */
+
+.pmain {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+@media (max-width: 840px) {
+  .pmain {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pImgBox {
+    max-height: 250px;
+    max-width: 250px;
+  }
+}
+
+.pImgBox {
+  flex: 1.5;
+  height: 300px;
+  width: 100%;
+}
+.imgSide {
+  /* border: 3px solid red; */
+}
+.imgSide h3,
+.imgSide h4 {
+  margin: 0;
+  margin-top: 5px;
+  /* border: 1px solid green; */
+  text-align: center;
+}
+.imgSide h4 {
+  color: var(--light);
+}
+.pImgBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.bio {
+  flex: 2;
+}

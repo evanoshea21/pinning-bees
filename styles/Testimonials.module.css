@@ -24,7 +24,7 @@
 .header img {
   width: 100px;
   height: 100px;
-  opacity: .3;
+  /* opacity: .3; */
 }
 
 .reviews {
@@ -72,5 +72,5 @@
 .whoInfo p {
   margin: 0;
   padding: 0;
-  color: var(--light)
+  color: var(--light);
 }

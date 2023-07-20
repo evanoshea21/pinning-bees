@@ -18,7 +18,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 /* .navContent > * {
   border: 1px solid blue;
@@ -32,8 +31,9 @@
   list-style-type: none;
   margin: 0 14px;
 }
-.links li, .links a {
-  transition: color .2s ease;
+.links li,
+.links a {
+  transition: color 0.2s ease;
 }
 .links li:hover {
   color: var(--red);
@@ -58,7 +58,8 @@
 .linksAndBtn {
   display: flex;
 }
-.contactBtn, .contactSm {
+.contactBtn,
+.contactSm {
   margin: 0 20px 0 60px;
 
   padding: 15px 26px;
@@ -133,7 +134,7 @@
 .dropdown {
   background-color: var(--grey);
   z-index: 100;
-  transition: all .6s ease;
+  transition: all 0.6s ease;
 
   overflow-y: hidden;
 }
@@ -147,7 +148,7 @@
 .cols a {
   text-decoration: none;
   color: var(--navy);
-  transition: color .5s;
+  transition: color 0.5s;
 }
 .cols a:hover {
   color: var(--red);
@@ -157,14 +158,14 @@
   margin: 20px;
   padding: 5px;
   border-bottom: 1px solid var(--lightT);
-  transition: all .5s;
+  transition: all 0.5s;
 }
 .cols li:hover {
   border-bottom: 1px solid var(--light);
   color: var(--red);
 }
 .cols button {
-  flex: 1
+  flex: 1;
 }
 
 @media (max-width: 370px) {

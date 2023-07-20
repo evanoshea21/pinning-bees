@@ -18,7 +18,7 @@ export default function Home() {
         <Hero />
         <Stats />
         <WhyPinterest />
-        <div
+        {/* <div
           style={{
             width: "100%",
             maxWidth: "1000px",
@@ -27,7 +27,7 @@ export default function Home() {
           }}
         >
           <img src="/airport.gif" width="100%" />
-        </div>
+        </div> */}
         <OurServices />
         <WhyUs />
         <Work />

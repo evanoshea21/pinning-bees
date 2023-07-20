@@ -7,7 +7,8 @@
   margin-right: auto;
   padding: 20px;
 }
-.main h1, .main > p {
+.main h1,
+.main > p {
   text-align: center;
 }
 .main h1 {
@@ -32,8 +33,10 @@
   flex: 1;
 }
 
-
 /* RIGHT */
+.right {
+  /* border: 1px solid green; */
+}
 
 .right > * {
   background-color: var(--lightT);
@@ -55,7 +58,7 @@
 
 /* LEFT */
 .left {
-  /* border: 1px solid rgba(128, 128, 128, 0.328); */
+  /* border: 1px solid blueviolet; */
   /* display: flex;
   align-items: center; */
   padding: 15px;
@@ -70,7 +73,7 @@
   margin: 10px auto;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 1000px) {
   .content {
     flex-direction: column-reverse;
   }
